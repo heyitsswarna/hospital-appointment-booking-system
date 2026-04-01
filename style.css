@@ -1,0 +1,80 @@
+body {
+    font-family: Arial;
+
+    background: url("https://images.unsplash.com/photo-1586773860418-d37222d8fce3") no-repeat center center/cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #003366;
+}
+
+.welcome {
+    font-size: 18px;
+    color: #222;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+input, select {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #45a049;
+    transform: scale(1.05);
+}
+
+#error {
+    color: red;
+    font-weight: bold;
+}
+
+#loading {
+    display: none;
+    color: blue;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#confirmation {
+    margin-top: 15px;
+    font-weight: bold;
+    color: green;
+}
+
+#summary {
+    display: none;
+    margin-top: 15px;
+}

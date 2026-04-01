@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Appointment Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🏥 SmartCare Hospital</h1>
+    <p class="welcome">Book your appointment in just 30 seconds!</p>
+
+    <div class="card">
+        <h2>📅 Appointment Form</h2>
+
+        <input type="text" id="name" placeholder="👤 Enter your name">
+
+        <input type="date" id="date">
+
+        <input type="time" id="time">
+
+        <select id="service">
+            <option value="">🩺 Select Service</option>
+            <option value="Checkup">General Checkup</option>
+            <option value="Consultation">Consultation</option>
+        </select>
+
+        <button onclick="bookAppointment()">Book Appointment</button>
+
+        <p id="error"></p>
+    </div>
+
+    <div id="loading">⏳ Booking your appointment...</div>
+
+    <div id="confirmation"></div>
+
+    <div id="summary" class="card"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
