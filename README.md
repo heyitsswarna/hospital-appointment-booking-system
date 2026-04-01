@@ -95,7 +95,8 @@ This project was developed as part of academic learning and practice.
 
 # 📬 Contact
 
-For any queries or suggestions, feel free to connect!
+gmail- swarnapravasitha5@gmail.com
+linkedin- linkedin.com/in/swarnaprava-sitha
 
 ---
 
