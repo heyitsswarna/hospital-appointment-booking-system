@@ -96,7 +96,7 @@ This project was developed as part of academic learning and practice.
 # 📬 Contact
 
 gmail- swarnapravasitha5@gmail.com
-linkedin- linkedin.com/in/swarnaprava-sitha
+linkedin- https://www.linkedin.com/in/swarnapravasitha
 
 ---
 
